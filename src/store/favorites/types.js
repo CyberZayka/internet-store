@@ -1,0 +1,1 @@
+export const SET_FAVORITES_ARR = "SET_FAVORITES_ARR";

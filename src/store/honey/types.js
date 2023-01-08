@@ -1,0 +1,2 @@
+export const SET_HONEY = "SET_HONEY";
+export const SET_HONEY_LOADING = "SET_HONEY_LOADING";

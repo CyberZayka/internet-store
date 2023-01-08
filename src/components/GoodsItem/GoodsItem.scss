@@ -1,0 +1,97 @@
+$favStar-color: #fcc10a;
+$accept-color: #00a046;
+$decline-color: #fa6368;
+
+.card {
+  position: relative;
+  padding: 16px;
+  border: 1px solid #e9e9e9;
+  text-align: left;
+
+  &__img-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 184px;
+    overflow: hidden;
+  }
+
+  &__link {
+    text-decoration: none;
+    color: inherit;
+  }
+
+  &__img {
+    height: 100%;
+  }
+
+  &__title {
+    margin: 8px 0;
+    font-size: 14px;
+    font-weight: normal;
+  }
+
+  &__info {
+    display: flex;
+    justify-content: space-between;
+    font-size: 12px;
+    font-weight: 300;
+    margin-bottom: 30px;
+  }
+
+  &__purchase {
+    display: flex;
+    justify-content: space-between;
+    font-size: 24px;
+    margin-bottom: 0;
+  }
+}
+
+.fav-btn {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  width: 20px;
+  height: 20px;
+  background-color: transparent;
+
+  & > svg {
+    overflow: visible;
+  }
+
+  & path {
+    stroke: $favStar-color;
+    stroke-width: 40;
+    fill: #ffffff;
+  }
+
+  &.added path {
+    fill: $favStar-color;
+  }
+}
+
+.cart-btn {
+  background-color: transparent;
+  width: 25px;
+  height: 25px;
+}
+
+.cart-confirm-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.cart-confirm-btn {
+  min-width: 100px;
+  padding: 10px;
+  border-radius: 5px;
+  color: #fff;
+
+  &--accept {
+    background-color: $accept-color;
+  }
+
+  &--decline {
+    background-color: $decline-color;
+  }
+}

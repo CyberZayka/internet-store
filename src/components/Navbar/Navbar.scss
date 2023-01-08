@@ -1,0 +1,22 @@
+.header-nav {
+  &__list {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+  }
+
+  &__item {
+    margin: 0 20px;
+  }
+
+  &__link {
+    text-decoration: none;
+    color: inherit;
+    font-size: 18px;
+
+    &:hover, &--active {
+      color: #00a046;
+    }
+  }
+}

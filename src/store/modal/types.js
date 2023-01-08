@@ -1,0 +1,3 @@
+export const SET_MODAL_VISIBLE = "SET_MODAL_VISIBLE";
+export const SET_MODAL_HEADER = "SET_MODAL_HEADER";
+export const SET_MODAL_ID = "SET_MODAL_ID";
